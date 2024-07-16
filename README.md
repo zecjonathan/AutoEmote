@@ -12,12 +12,6 @@ sendet eine nachricht, wenn mind. 3/10 vorherigen nachrichten die gleiche waren 
 
 sendet max. alle 20s
 
-
-
-# Twitch Chat Bot mit Nachrichten-Wiederholungserkennung
-
-Nutze den Code, um automatisches Emotes in Twitch chats zu senden. 
-
 ## Setup-Anleitung
 
 1. **Repository klonen**
