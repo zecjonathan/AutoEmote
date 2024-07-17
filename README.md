@@ -1,13 +1,20 @@
-# AutoEmote
+## Verwendung Windows
 
-token hier bekommen (bekommt ihr hier https://twitchapps.com/tmi/)
+1. **.exe downloaden**
 
-## Verwendung
+2. **.exe ausführen**
 
-1. **Interaktion im Twitch-Chat**
-   - Sobald verbunden, wird der Bot dem angegebenen Kanal auf Twitch beitreten.
-   - Wenn der Bot feststellt, dass eine Nachricht mehr als dreimal innerhalb der letzten 10 protokollierten Nachrichten wiederholt wurde, sendet er diese automatisch in den Chat. Das passiert meißtens, wenn der ganze Chat emotes spamt.
+4. **eingaben eingeben**
+   - den token bekommt ihr hier: https://twitchapps.com/tmi/
+   - mit dem oauth: einfügen
 
-2. **Ausgabe verwalten**
-   - Es wird max. alle 20s eine Nachricht gesendet.
+5. **Warten**
+   - warten, bis der bot nachrichten erkennt und sie sendet
+  
+## Funktionsweise
 
+1. **Erkennen der Nachrichten**
+   - wenn von den letzten 10 Chat nachrichten 3 einen identischen Wert hatten, sendet der bot eine nachricht mit diesem Wert
+
+2. **Senden**
+  - der bot sendet max. alle 20s
