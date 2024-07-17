@@ -34,4 +34,4 @@
    - wenn von den letzten 10 Chat nachrichten 3 einen identischen Wert hatten, sendet der bot eine nachricht mit diesem Wert
 
 2. **Senden**
-  - der bot sendet max. alle 30s-300s
+  - der bot sendet max. alle 50s

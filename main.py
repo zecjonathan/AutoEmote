@@ -1,7 +1,6 @@
 import socket
 import collections
 import time
-import random
 
 server = "irc.chat.twitch.tv"
 port = 6667
@@ -34,7 +33,7 @@ def send_chat(chat):
         command = f"PRIVMSG {channel} :{message}\n"
         sock.send(command.encode("utf-8"))
         print(f"Sent message to {channel}: {message}")
-        time.sleep(random.randint(30, 300))  # Pause for 20 seconds after sending a message
+        time.sleep(50)  # Pause for 50 seconds after sending a message
 
 # Main loop to receive messages
 while True:
